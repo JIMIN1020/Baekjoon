@@ -1,3 +1,5 @@
+// 2438. 별찍기-1
+
 #include <iostream>
 using namespace std;
 
