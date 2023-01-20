@@ -1,3 +1,4 @@
+// [2439] 별 찍기-2
 #include <stdio.h>
 
 int main(void) {
