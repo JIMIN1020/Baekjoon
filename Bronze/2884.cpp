@@ -1,12 +1,9 @@
 // [2884] 알람시계
-
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main(void) {
-
     int h, m;
-    cin >> h >> m;
+    scanf("%d %d", &h, &m);
     
     if (m >= 45) m -= 45;
     else
@@ -15,5 +12,5 @@ int main(void) {
         else h--;
         m += 15;
     }
-    cout << h << " " << m << endl;
+    printf("%d %d\n", h, m);
 }
