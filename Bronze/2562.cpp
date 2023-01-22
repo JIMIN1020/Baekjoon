@@ -1,3 +1,4 @@
+// [2562] 최댓값
 #include <stdio.h>
 
 int main(void) {
