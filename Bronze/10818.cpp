@@ -1,3 +1,4 @@
+// [10818] 최소, 최대
 #include <stdio.h>
 
 int main(void) {
