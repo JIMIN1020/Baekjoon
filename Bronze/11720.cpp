@@ -1,5 +1,5 @@
+// [11720] 숫자의 합
 #include <stdio.h>
-#include <string>
 
 int main(void) {
     int N, sum = 0;
