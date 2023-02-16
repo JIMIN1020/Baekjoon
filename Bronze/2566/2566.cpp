@@ -1,13 +1,16 @@
 // [2566] 최댓값
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main(void) {
+int main(void)
+{
     int max = 0, row = 0, col = 0;
     
     for (int i = 0; i < 9; i++) {
-        for (int j = 0; j < 9; j++) {
+        for (int j = 0; j < 9; j++)
+        {
             int temp;
-            scanf("%d", &temp);
+            cin >> temp;
             if (max <= temp) {
                 max = temp;
                 row = i+1;
@@ -15,5 +18,5 @@ int main(void) {
             }
         }
     }
-    printf("%d\n%d %d", max, row, col);
+    cout << max << "\n" << row << " " << col << "\n";
 }
