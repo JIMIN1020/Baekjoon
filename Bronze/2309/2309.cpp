@@ -3,7 +3,8 @@
 #include <algorithm>
 using namespace std;
 
-int main(void) {
+int main(void)
+{
     int arr[9], sum = 0;
     for (int i = 0; i < 9; i++) {
         cin >> arr[i];
@@ -13,8 +14,11 @@ int main(void) {
     
     // 일곱 난쟁이 찾기
     for (int i = 0; i < 8; i++) {
-        for (int j = i+1; j < 9; j++) {
-            if ((sum - arr[i] - arr[j]) == 100) {  // 합에서 난쟁이 2명의 키를 뺀 값이 100이면?
+        for (int j = i+1; j < 9; j++)
+        {
+            // 합에서 난쟁이 2명의 키를 뺀 값이 100이면?
+            if ((sum - arr[i] - arr[j]) == 100)
+            {
                 sum = 0;     // break 용도
                 arr[i] = 0;  // 해당하는 난쟁이 키는 0으로 만듦
                 arr[j] = 0;
