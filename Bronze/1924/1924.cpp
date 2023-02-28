@@ -2,9 +2,11 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main(void)
+{
     string day[7] = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};
     int last_day[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
     int x, y, sum = 0;
     cin >> x >> y;
     
