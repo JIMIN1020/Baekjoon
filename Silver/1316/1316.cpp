@@ -10,7 +10,7 @@ int main(void) {
     
     while (N--) {
         cin >> word;
-        int alpha[26] = {0,};       // 알파벳 존재 여부 체크할 배열
+        int alpha[26] = {0};       // 알파벳 존재 여부 체크할 배열
         alpha[word[0] - 'a'] = 1;   // 첫번째 문자는 우선 1로 갱신
         
         for (int i = 1; i < word.size(); i++)
